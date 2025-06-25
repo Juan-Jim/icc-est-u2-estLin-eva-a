@@ -1,6 +1,7 @@
 package main;
 
 import java.util.*;
+import java.util.concurrent.ConcurrentLinkedQueue;
 
 public class LogicaClasificacion {
 
@@ -15,6 +16,14 @@ public class LogicaClasificacion {
      * @return nueva cola con los nombres en orden invertido
      */
     public Queue<String> invertirColaNombres(Queue<String> cola) {
+        Queue<String> queue = new ConcurrentLinkedQueue<>();
+        for (String i : queue) {
+            if(!cola.isEmpty()) {
+                return null;
+            } else {
+                
+            }
+        }
 
         return new LinkedList<>(Arrays.asList()); // Simulación de resultado
     }
@@ -32,6 +41,8 @@ public class LogicaClasificacion {
      * @return true si forman un palíndromo, false si no
      */
     public boolean verificarPalindromoCola(Queue<String> cola) {
+        Queue<String> queue = new ConcurrentLinkedQueue<>();
+        String cola = queue();
 
         return false;
     }
